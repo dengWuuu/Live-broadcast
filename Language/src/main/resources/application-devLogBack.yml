@@ -1,0 +1,10 @@
+logging:
+  file:
+    path: /usr/local/app/log
+  logback:
+    rollingpolicy:
+      max-file-size: 1GB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+  level:
+    root: info
+

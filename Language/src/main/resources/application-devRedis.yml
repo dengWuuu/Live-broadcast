@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host:
+    port: 6379
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 1ms
+        max-idle: 4
+        min-idle: 0
+    password:
+
+  cache:
+    redis:
+      time-to-live: 180000 #??ms
